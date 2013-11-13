@@ -37,8 +37,7 @@ nav ul li {
 div.section {
     padding-top: 90px;
     padding-bottom: 50px;
-    margin-right:-13px;
-    width: 33.333%;
+    width: 33.3%;
     height: 100%;
     display: inline-flex;
     overflow-y: scroll;
