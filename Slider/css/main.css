@@ -1,12 +1,14 @@
-html, body {
+html,
+body {
     height: 100%;
-    width:  100%;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     color: #EEE;
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial;
 }
-
-nav {
+    nav {
     position: fixed;
     height: 80px;
     width: 100%;
@@ -16,28 +18,35 @@ nav {
     text-align: center;
     font-weight: 100;
 }
-
-nav ul {
-    list-style-type:none;
-    padding:0px;
+    nav ul {
+    list-style-type: none;
+    padding: 0px;
 }
-
-nav ul li {
+    nav ul li {
+    width: 20%;
+    margin: 0px 20px;
     font-size: 24px;
     display: inline;
-    padding: 0px 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #888;
+    border-bottom: 1px solid #eee;
 }
-
-div#wrapper {
+    nav ul li:hover {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    color: black;
+    border-color: black;
+}
+    div#wrapper {
     position: fixed;
     top: 100px;
     left: -200%;
     height: 100%;
     width: 500%;
-    overflow:scroll;
+    overflow: scroll;
 }
-
-div.section {
+    div.section {
     position: absolute;
     top: 0px;
     min-height: 100%;
@@ -45,43 +54,41 @@ div.section {
     overflow: scroll;
     padding-bottom: 150px;
 }
-
-div.section_content h1 {
+    div.section_content h1 {
     padding: 10px 30px;
 }
-
-div.section_content p {
+    div.section_content p {
     padding: 0px 60px;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 200;
 }
-
-div#more_left {
+    div#more_left {
     left: 0px;
     z-index: 1;
-    background-color: #0E7983;  
+    background-color: #0E7983;
+    background-color: #eee;
 }
-
-div#left {
+    div#left {
     left: 20%;
     z-index: 1;
-    background-color: #47B189;  
+    background-color: #47B189;
+    background-color: #eee;
 }
-
-div#center {
+    div#center {
     left: 40%;
     z-index: 1;
-    background-color: #206D6B;  
+    background-color: #206D6B;
+    background-color: #eee;
 }
-
-div#right {
+    div#right {
     left: 60%;
     z-index: 1;
-    background-color: #0CADAA;  
+    background-color: #0CADAA;
+    background-color: #eee;
 }
-
-div#more_right {
+    div#more_right {
     left: 80%;
     z-index: 1;
-    background-color: #60A59B;  
+    background-color: #60A59B;
+    background-color: #eee;
 }
