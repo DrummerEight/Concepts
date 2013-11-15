@@ -10,24 +10,27 @@ body {
 }
     nav {
     position: fixed;
-    height: 80px;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 10px;
     background-color: #eee;
     color: #333;
     text-align: center;
+    font-size: 24px;
     font-weight: 100;
 }
     nav ul {
     list-style-type: none;
     padding: 0px;
+    margin-bottom: 10px;
 }
     nav ul li {
+    -webkit-transition: all .2s;
+    transition: all .2s;
     width: 20%;
     margin: 0px 20px;
     font-size: 24px;
     display: inline;
-    padding: 10px 20px;
+    padding: 10px 20px 0px 20px;
     cursor: pointer;
     color: #888;
     border-bottom: 1px solid #eee;
@@ -37,6 +40,7 @@ body {
     transition: all .5s;
     color: black;
     border-color: black;
+    padding-bottom: 5px;
 }
     div#wrapper {
     position: fixed;
