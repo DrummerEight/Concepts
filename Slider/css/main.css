@@ -36,8 +36,8 @@ body {
     border-bottom: 1px solid #eee;
 }
     nav ul li:hover {
-    -webkit-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all .2s;
+    transition: all .2s;
     color: black;
     border-color: black;
     padding-bottom: 5px;
